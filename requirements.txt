@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+torch
+onnx
+onnxruntime
+gmsh
+matplotlib
+python-occ-core
