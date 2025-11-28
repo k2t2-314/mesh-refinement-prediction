@@ -7,6 +7,7 @@ The system automatically detects geometric features, predicts global/local mesh 
 
 ## Project Structure
 
+```
 MLP-Mesh-Generator/
 │
 ├── example_steps/ # Sample STEP files (sourced from McMaster-Carr)
@@ -27,6 +28,7 @@ MLP-Mesh-Generator/
 ├── runtime.py # Main user entry point
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -203,7 +205,4 @@ load_scale = "high"`
 ## License
 MIT License
 
----
 
-## Contributors
-- Xinxuan Tang (CMU Mechanical Engineering)
