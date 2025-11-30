@@ -71,7 +71,7 @@ def get_result(step_path, thickness, load_face, load_direction, load_scale):
 
     step_to_json(step_path, thickness)
 
-    gmsh.initialize()
+    # gmsh.initialize()
     gmsh.open(step_path)
     gmsh.model.occ.synchronize()
 
@@ -657,7 +657,7 @@ def get_result(step_path, thickness, load_face, load_direction, load_scale):
     )
 
     gmsh.write("output/mesh_refined.msh")
-    gmsh.finalize()
+    # gmsh.finalize()
 
     return sentence
 
