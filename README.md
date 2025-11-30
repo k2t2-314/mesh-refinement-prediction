@@ -18,9 +18,6 @@ MLP-Mesh-Generator/
 │ ├── run_interface.py # Main inference pipeline (feature → prediction → meshing → output)
 │ ├── model_train.py # Training scripts for all 4 output models
 │ ├── part_level/ # Part-level dataset
-│ ├── geo_features/ # Feature-level dataset
-│ ├── results/ # Prediction results
-│ ├── target_steps/ # Target steps for detection
 │ └── init.py
 │
 ├── saved_model/ # Trained PyTorch models and preprocessors
